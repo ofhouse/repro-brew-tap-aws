@@ -1,0 +1,8 @@
+name: Tap-AWS
+
+jobs:
+  tap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tap
+        run: brew tap aws/tap
