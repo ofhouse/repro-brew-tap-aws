@@ -1,5 +1,8 @@
 name: Tap-AWS
 
+on:
+  push:
+
 jobs:
   tap:
     runs-on: ubuntu-latest
